@@ -1,0 +1,95 @@
+/*headline*/
+
+.headlineContainer {
+  min-height: 800px;
+  background-image: url('../img/headline.jpg');
+}
+
+.headlineContainer h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.headlineContainer p {
+  text-align: center;
+  font-size: 22px;
+}
+
+/*sa vama*/
+#saVama {
+  margin-top: 60px;
+}
+
+#saVama h2 {
+  font-size: 66px;
+}
+
+/*section 1*/
+
+#section--1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menjanjePromocije {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  transform: translateY(50%);
+  width: 600px;
+}
+.promena {
+  width: 150px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 250ms;
+}
+
+.aktivnaPromena {
+  transform: translateY(-20%);
+}
+
+#promena--1 {
+  background-color: #00a652;
+}
+
+#promena--2 {
+  background-color: #ffffff;
+}
+
+#promena--3 {
+  background-color: #ee1b24;
+}
+.promocija {
+  border: 1px solid black;
+  height: 300px;
+  width: 800px;
+  display: none;
+  margin-bottom: 70px;
+  text-align: center;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.promocija h3 {
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+.promocija p {
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+.aktivnaPromocija {
+  display: block;
+}

@@ -1,0 +1,68 @@
+.nav {
+  margin-bottom: 80px;
+}
+
+/*nasa prica*/
+#oNama__prica {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*slider*/
+
+#slider {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  position: relative;
+  width: 800px;
+  height: 550px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 1s;
+}
+
+.slide img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.slide p {
+  margin-bottom: 100px;
+}
+
+.slider__btn {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+
+  border: none;
+  background-color: white;
+  border-radius: 50%;
+  height: 50px;
+  font-size: 20px;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
+
+.slider__btn__left {
+  left: 6%;
+  transform: translate(-50%, -50%);
+}
+
+.slider__btn__right {
+  right: 6%;
+  transform: translate(50%, -50%);
+}
